@@ -17,8 +17,8 @@ env/
 *.png
 *.csv
 benchmarks/results/
-trace_*.json
 *.hatchet
+# Nota: los trace_*.json (traces del profiler) SÍ se versionan como ejemplo.
 
 # Editores / SO
 .vscode/
