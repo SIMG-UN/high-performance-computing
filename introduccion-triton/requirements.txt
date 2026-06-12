@@ -1,0 +1,8 @@
+# Triton viene incluido con las builds de PyTorch + CUDA.
+# Instala primero PyTorch siguiendo https://pytorch.org/get-started/locally/
+# (elige la versión de CUDA correspondiente a tu GPU).
+
+torch>=2.1
+triton>=2.1     # En Linux con CUDA se instala junto con torch; aquí se fija explícito.
+numpy>=1.24
+matplotlib>=3.7 # Para graficar los benchmarks.

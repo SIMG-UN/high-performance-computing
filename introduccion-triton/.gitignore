@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Triton / cachés de compilación
+.triton/
+~/.triton/
+
+# Resultados de benchmarks y profiling
+*.png
+*.csv
+benchmarks/results/
+trace_*.json
+*.hatchet
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
